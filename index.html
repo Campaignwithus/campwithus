@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CampWithUs</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('wallpaper.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.6);
+        }
+        header h1 {
+            margin: 0;
+        }
+        .container {
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.6);
+            margin: 20px;
+            border-radius: 8px;
+        }
+        .gallery {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 200px;
+            border-radius: 8px;
+        }
+        .contact-info, .contact-form {
+            margin-top: 20px;
+        }
+        .contact-form input, .contact-form button {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: none;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            background-color: #007BFF;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to CampWithUs</h1>
+    </header>
+
+    <div class="container">
+        <p>Experience the beauty of nature and the thrill of adventure with CampWithUs. We bring you unforgettable camping experiences, from serene lakesides to rugged mountain terrains. Join us to create memories under the starry sky, surrounded by nature's wonders.</p>
+    </div>
+
+    <div class="container gallery">
+        <img src="photo1.jpg" alt="Camping Spot 1">
+        <img src="photo2.jpg" alt="Camping Spot 2">
+        <img src="photo3.jpg" alt="Camping Spot 3">
+        <img src="wallpaper.jpg" alt="Camping Spot 4">
+    </div>
+
+    <div class="container contact-info">
+        <h2>Contact Us</h2>
+        <p>Phone: 8770146866</p>
+        <p>Email: <a href="mailto:mamatasingh8302@gmail.com">mamatasingh8302@gmail.com</a></p>
+        <p>Instagram: <a href="https://www.instagram.com/mamatasingh8302" target="_blank">@mamatasingh8302</a></p>
+    </div>
+
+    <div class="container contact-form">
+        <h2>Leave Your Contact Details</h2>
+        <form>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="text" name="phone" placeholder="Your Phone Number" required>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
